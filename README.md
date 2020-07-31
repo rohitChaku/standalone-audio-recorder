@@ -3,6 +3,8 @@ Web application made using Node.js as the server and Vue.js as the client. The p
 
 The server uses a CSV file with `id` and `text` as the columns, with `id` being the file name with which the audio file will be stored in `/src/data` directory and `text` being the display text for speaker to read and record. The CSV file must be present in `/src/assets` under the name `audio_record.csv`.
 
+![Standalone Audio Recorder](standalone-audio-recorder-layout.png?raw=True "Standalone Audio Recorder Layout")
+
 ## Project setup
 ```
 yarn install
